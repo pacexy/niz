@@ -5,11 +5,11 @@ import npmName from 'npm-name'
 interface EnumerateStringsOptions {
   length: number
   charset?: string[]
-  filter?: Function
+  filter?: (string: string) => boolean
 }
 
 interface Options extends EnumerateStringsOptions {
-  inject?: Function
+  inject?: (name: string, available: boolean) => void
 }
 
 export default async function niz(options: Options) {
