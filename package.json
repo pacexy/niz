@@ -1,6 +1,6 @@
 {
   "name": "niz",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "build/src/index.js",
   "description": "Filter out available npm names through some restrictions.",
   "scripts": {

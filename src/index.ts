@@ -9,7 +9,7 @@ interface EnumerateStringsOptions {
 }
 
 interface Options extends EnumerateStringsOptions {
-  inject: Function
+  inject?: Function
 }
 
 export default async function niz(options: Options) {
