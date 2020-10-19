@@ -15,5 +15,6 @@ interface Options {
   length: number
   charset?: string[]
   filter?: Function
+  inject?: Function
 }
 ```
